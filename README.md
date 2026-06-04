@@ -92,9 +92,13 @@ OUT B
 ## Пример работы
 
 Вход:
+
 MOVI 10
+
 MOVI 5
+
 ADD A, B
+
 OUT A
 
 Выход:
@@ -128,20 +132,6 @@ make encoder
 
 Очистка:
 make clean
-
-## Полный пример
-
-echo "MOVI 10" > prog.txt
-echo "MOVI 5" >> prog.txt
-echo "ADD A, B" >> prog.txt
-echo "OUT A" >> prog.txt
-./encoder < prog.txt
-
-Вывод:
-0x0A
-0x05
-0x89
-0xC0
 
 ## Автор
 
